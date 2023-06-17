@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cemetery Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Cemetery Management</h1>
+
+<h2>Get All Humans</h2>
+<button onclick="getAllHumans()">Get All Humans</button>
+<div id="humansList"></div>
+
+<h2>Get Human By Name</h2>
+<input type="text" id="nameInput" placeholder="Enter Name">
+<button onclick="getHumanByName()">Get Human By Name</button>
+<div id="humanDetails"></div>
+
+<h2>Add Person</h2>
+<input type="text" id="firstNameInput" placeholder="First Name">
+<input type="text" id="lastNameInput" placeholder="Last Name">
+<input type="number" id="yearOfBirthInput" placeholder="Year of Birth">
+<input type="number" id="yearOfDeathInput" placeholder="Year of Death">
+<input type="checkbox" id="isMaleInput">
+<label for="isMaleInput">Is Male</label>
+<input type="text" id="placeOfBirthInput" placeholder="Place of Birth">
+<input type="text" id="placeOfDeathInput" placeholder="Place of Death">
+<button onclick="addPerson()">Add Person</button>
+<div id="addPersonResult"></div>
+
+<script src="index.js" defer></script>
+</body>
+</html>

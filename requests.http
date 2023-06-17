@@ -1,0 +1,14 @@
+POST http://localhost:3000/add/person HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Kurtic",
+  "yearOfBirth": 1990,
+  "yearOfDeath": 2020,
+  "isMale": true,
+  "placeOfBirth": "New York",
+  "placeOfDeath": "Los Angeles"
+}
+###########################
+GET http://localhost:3000/cementery HTTP/1.1
